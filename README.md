@@ -1,3 +1,14 @@
+# P12 Scanner — señales por Telegram (BingX)
+
+`scanner.py` vigila todas las perpetuas 24/7 de BingX con el motor P12 y te avisa por Telegram para entrar a mano.
+No envía órdenes ni necesita API keys. Sigue cada señal en papel y `/stats` mide la expectativa real en R.
+
+Arranque: `python scanner.py` (Railway usa `startCommand` de railway.toml). Variables nuevas al final de `.env.example`.
+Comandos: /ping /status /stats /symbols /pause /resume /help
+Bot con órdenes automáticas (opcional): `python main.py` (DRY_RUN=true por defecto).
+
+---
+
 # P12 Hunter Bot — BingX + Telegram
 
 Port a Python de la estrategia **P12 Hunter v4.6** (Pine v6): lectura de la sesión asiática/Londres (rango P12),
